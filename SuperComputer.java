@@ -19,23 +19,29 @@ public class SuperComputer{
         System.out.print("");
         int choice = 0;
         choice = scan.nextInt();
-        
+        // ALex
         if (choice == 1){
             for (int a = 1; a <= 100; a += 5){
                 System.out.print(a + " ");
             }
             System.out.println();
-        }else if (choice == 2){
+        }
+        // Alex
+        else if (choice == 2){
             for (int b = 100; b >= 1; b--){
                 System.out.print(b + " ");
             }
             System.out.println();
-        }else if (choice == 3){
+        }
+        // Jarrett
+        else if (choice == 3){
             for (int c = 0; c <= 100000; c += 5){
                 System.out.print(c + " ");
             }
             System.out.println();
-        }else if (choice == 4){
+        }
+        // Jarrett
+        else if (choice == 4){
             for (int d = 1000000; d >= 0; d -= 5){
                 System.out.print(d + " ");
             }
